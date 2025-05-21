@@ -1,6 +1,5 @@
 # soil-classification-model_annam
 
-```markdown
 🌱 Soil Classification with Deep Learning
 
 A high-performance deep learning model for classifying soil types from images with 95%+ F1 score.
@@ -24,10 +23,9 @@ The dataset contains:
 
 🛠️ Installation
 
-```
+
 # 💻 How It Works
 
-```
 
 🧠 Model Architecture
 
@@ -57,9 +55,9 @@ The model achieves:
 - 96%+ F1 Score on the validation set
 - High Accuracy across all soil types
 - Robust Generalization to unseen images
-```
+- 
 # 📝 Structure
-```
+
 1. Cell 1: Libraries and dependencies
 2. Cell 2: Data loading and fold preparation
 3. Cell 3: Model, optimizer, scheduler, and loss function setup
@@ -78,20 +76,67 @@ The model achieves:
 
 ⭐ Results
 
-|--------------------------|
 |   Soil Type   | F1 Score |
 |---------------|----------|
 | Alluvial soil |   0.97   |
 | Black Soil    |   0.95   |
 | Clay soil     |   0.96   |
 | Red soil      |   0.97   |
-|--------------------------|
 | Overall       |   0.96   |
-|--------------------------|
 
-```
-## Clone this repository
 
-```
-git clone https://github.com/punkkkkkkk/soil-classification-model_annam.git
-```
+
+# How to Run This Project
+
+
+## 🚀 How to Run This Project
+
+### Prerequisites
+- Python 3.7+ installed
+- CUDA-compatible GPU recommended (for faster training)
+- Access to the soil classification dataset
+
+### Setup
+1. **Clone the repository:**
+   ```
+   git clone https://github.com/yourusername/soil-classification.git
+   cd soil-classification
+   ```
+
+2. **Install dependencies:**
+   ```
+   pip install -r requirements.txt
+   ```
+
+3. **Prepare your environment:**
+   - For Jupyter: `jupyter notebook`
+   - For Python script: Make sure your working directory contains the code files
+
+### Dataset Structure
+Ensure your dataset is organized as follows:
+
+/dataset
+/train           # Training images
+/test            # Test images
+train_labels.csv # CSV with image_id and soil_type columns
+
+### Running the Model
+
+#### Using Jupyter Notebook
+1. Open `soil_classification.ipynb` in Jupyter
+2. Execute cells sequentially (Shift+Enter)
+3. Modify parameters in cell 6 to adjust training (epochs, batch size, etc.)
+4. The final cell will generate `submission.csv` with predictions
+
+
+### Expected Outputs
+- Trained models saved to `/models` directory as `.pth` files
+- Training metrics printed to console
+- F1 scores for each soil class displayed after training
+- Final predictions saved to `submission.csv`
+
+### Troubleshooting
+- **Memory errors:** Reduce batch size in cell 4 and cell 6
+- **CUDA errors:** Try `torch.cuda.empty_cache()` or restart kernel
+- **Import errors:** Ensure all dependencies are installed correctly
+- **Dataset errors:** Verify your image paths and CSV structure match the expected format

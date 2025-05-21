@@ -90,6 +90,8 @@ The model achieves:
 |--------------------------|
 
 ```
-# Clone this repository
-git clone https://github.com/punkkkkkkk/soil-classification-model_annam.git
+## Clone this repository
 
+```
+git clone https://github.com/punkkkkkkk/soil-classification-model_annam.git
+```

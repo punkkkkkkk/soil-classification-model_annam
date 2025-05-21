@@ -86,10 +86,7 @@ The model achieves:
 
 
 
-# How to Run This Project
-
-
-## 🚀 How to Run This Project
+# 🚀 How to Run This Project
 
 ### Prerequisites
 - Python 3.7+ installed
@@ -116,8 +113,11 @@ The model achieves:
 Ensure your dataset is organized as follows:
 
 /dataset
+
 /train           # Training images
+
 /test            # Test images
+
 train_labels.csv # CSV with image_id and soil_type columns
 
 ### Running the Model

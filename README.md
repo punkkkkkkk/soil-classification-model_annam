@@ -25,14 +25,9 @@ The dataset contains:
 🛠️ Installation
 
 ```
-# Clone this repository
-git clone https://github.com/punkkkkkkk/soil-classification-model_annam.git
+# 💻 How It Works
 
-# Install dependencies
-pip install torch torchvision albumentations pandas scikit-learn pillow tqdm ranger-adabelief
 ```
-
-💻 How It Works
 
 🧠 Model Architecture
 
@@ -63,15 +58,8 @@ The model achieves:
 - High Accuracy across all soil types
 - Robust Generalization to unseen images
 ```
-# Train models
-python train.py
-
-# Generate predictions
-python predict.py --input /path/to/test/images --output predictions.csv
+# 📝 Structure
 ```
-
-📝 Code Structure
-
 1. Cell 1: Libraries and dependencies
 2. Cell 2: Data loading and fold preparation
 3. Cell 3: Model, optimizer, scheduler, and loss function setup
@@ -89,6 +77,7 @@ python predict.py --input /path/to/test/images --output predictions.csv
 - Detailed performance metrics for each soil class
 
 ⭐ Results
+
 |--------------------------|
 |   Soil Type   | F1 Score |
 |---------------|----------|
@@ -101,3 +90,6 @@ python predict.py --input /path/to/test/images --output predictions.csv
 |--------------------------|
 
 ```
+# Clone this repository
+git clone https://github.com/punkkkkkkk/soil-classification-model_annam.git
+

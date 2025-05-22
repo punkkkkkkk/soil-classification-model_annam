@@ -1,7 +1,7 @@
 # 🌱 Soil Classification with Deep Learning
 
 ```
-**NOTE : SOIL-CLASSIFICATION-MODEL.IPYNB CONTAINS THE CODE FOR BOTH TRAINING AND INFERENCE**
+NOTE : SOIL-CLASSIFICATION-MODEL.IPYNB CONTAINS THE CODE FOR BOTH TRAINING AND INFERENCE
 ```
 A high-performance deep learning model for classifying soil types from images with 95%+ F1 score.
 
